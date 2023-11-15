@@ -28,4 +28,4 @@ THEN I find a concise, descriptive title
 
 The following image shows the web application's appearance and functionality:
 
-<img src= ./assets/images/Screenshot 2023-11-15 084559.png />
+![Screenshot 2023-11-15 084559](https://github.com/banksjm3/Banks-Code-Refractor/assets/142278639/48085355-f7c1-463b-9284-e20aa5a2ce9c)
