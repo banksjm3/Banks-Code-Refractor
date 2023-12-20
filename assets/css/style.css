@@ -1,33 +1,38 @@
+
+/* Ensures padding and border don't add to width/height */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Light gray background */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header */
 .header {
-    padding: 20px;
+    padding: 20px; /* Padding for content inside header */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    background-color: #2a607c; /* Dark blue background */
+    color: #ffffff; /* White text */
 }
 
+
 .header h1 {
-    display: inline-block;
-    font-size: 48px;
+    display: inline-block; /* Puts the website title next to navigation */
+    font-size: 48px; /* Large font size for main heading */
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #d9dcd6; /* Light gray on the "seo" part of the title */
 }
 
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
+    float: right; /* Aligns navigation to the right */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
@@ -50,6 +55,7 @@ p {
     font-size: 16px;
 }
 
+/* Hero section */
 .hero {
     height: 800px;
     width: 100%;
